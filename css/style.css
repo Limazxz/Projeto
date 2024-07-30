@@ -157,19 +157,38 @@ header {
 #textoBoasVindas p {
   margin-top: 0;
 }
-#cardapio{
+#cardapio {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
-#cardapio img{
-  padding: 36px 0
+#cardapio img {
+  padding: 36px 0;
 }
-#cardapio div img{
+#cardapio div img {
   padding: 0;
 }
-/* #cardapio div{
+#cardapio h2 {
+  color: #d03012;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 7px 0;
+}
+.btnCardapio{
+  text-decoration: none;
+  color: #ffff;
+  background: #8daa3e;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-bottom: 2px solid #6b7552;
+}
+#promoPizzas{
   width: 100%;
   display: flex;
-  justify-content: space-between;
-} */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
