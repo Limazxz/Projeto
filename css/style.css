@@ -157,3 +157,19 @@ header {
 #textoBoasVindas p {
   margin-top: 0;
 }
+#cardapio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cardapio img{
+  padding: 36px 0
+}
+#cardapio div img{
+  padding: 0;
+}
+/* #cardapio div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} */
