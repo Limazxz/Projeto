@@ -175,7 +175,7 @@ header {
   font-weight: 900;
   margin: 0 0 7px 0;
 }
-.btnCardapio{
+.btnCardapio {
   text-decoration: none;
   color: #ffff;
   background: #8daa3e;
@@ -183,7 +183,7 @@ header {
   border-radius: 50px;
   border-bottom: 2px solid #6b7552;
 }
-#promoPizzas{
+#promoPizzas {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -191,4 +191,23 @@ header {
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
+}
+#delivery {
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
+#delivery h1 {
+  text-transform: uppercase;
+  color: #bf0a26;
+  font-weight: 900;
+}
+#delivery .sec-menu{
+  justify-content: center;
+  padding: 40px;
 }
